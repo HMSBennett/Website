@@ -144,43 +144,43 @@ function SelectRoom(index){
 
 function Pictures(){
   if (currentRoom == 1){
-    imgSpace.src = "../Website/images/Watch.png";
+    imgSpace.src = "../images/Watch.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 16){
-    imgSpace.src = "../Website/images/Dr.GastlyID.png";
+    imgSpace.src = "../images/Dr.GastlyID.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 38 || currentRoom == 39 || currentRoom == 81 || currentRoom == 82){
-    imgSpace.src = "../Website/images/EngineOff.png";
+    imgSpace.src = "../images/EngineOff.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 40 || currentRoom == 83){
-    imgSpace.src = "../Website/images/EngineOn.png";
+    imgSpace.src = "../images/EngineOn.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 65 || currentRoom == 68 || currentRoom == 69){
-    imgSpace.src = "../Website/images/PasswordOne.png";
+    imgSpace.src = "../images/PasswordOne.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 10 || currentRoom == 11 || currentRoom == 12){
-    imgSpace.src = "../Website/images/Split.png";
+    imgSpace.src = "../images/Split.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 67){
-    imgSpace.src = "../Website/images/TopSecret.png";
+    imgSpace.src = "../images/TopSecret.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 64){
-    imgSpace.src = "../Website/images/Charts.png";
+    imgSpace.src = "../images/Charts.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 61 || currentRoom == 59){
-    imgSpace.src = "../Website/images/Chest.png";
+    imgSpace.src = "../images/Chest.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else {
-    imgSpace.src = "../Website/images/Blank.png";
+    imgSpace.src = "../images/Blank.png";
     imgSpace.style.height = '1px';
     imgSpace.style.width = '1px';
   }
@@ -281,7 +281,7 @@ function MainScript(){
 var shipArray = [
   // index 0
   {
-    text:'Welcome to a BazzyMuffin Text Adventure. You have been hiding from the monsters, they are coming for you... </br></br>Good Luck...',
+    text:'Welcome to a HTML Text Adventure. You have been hiding from the monsters, they are coming for you... </br></br>Good Luck...',
     choices:[
       {
         text: 'Begin',
