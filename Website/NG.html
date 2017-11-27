@@ -2,15 +2,16 @@
 
 <html>
   <head>
-    <title>HMS Bennett - Games</title>
+    <title>HMS Bennett - Primary School Numbers Game</title>
     <link rel="stylesheet" href="CSS/MainStyleSheet.css" />
-    <script src="JavaScript/Main.js"></script>
+    <script src="JavaScript/NGJava.js"></script>
   </head>
 
   <body onload="OnLoad()">
+    <bgsound id="sndPlayer"></bgsound>
     <h2 class="title">
       <img src="images/Website.png" width="20%" height"20%"></br>
-      Games
+      Primary School Numbers Game
     </h2>
     <h3>
       <ul class="menu">
@@ -44,23 +45,19 @@
     </div>
     <div class="mainText">
       <p>
-        These are a collection of games created throughout my CGD course.
-        Some are works in progress and won't have playable demos.</br>
-        Please click to find out more.</br>
-        </br>
-        <left>
-          <u>Playable</u></br></br>
-          <a href="TBA.html">The Awakening</a></br></br>
-          <a href="GAW.html">Gods At War</a></br></br>
-          <a href="SF.html">Seneschal's Fortress</a></br></br>
-        </left>
-        <right>
-          <u>Currently Unplayable</u></br></br>
-          <a href="DGH.html">Demi God Heroes</a></br></br>
-          <a href="RC.html">Richard City</a></br></br>
-          <a href="HR.html">Hover Racer</a></br></br>
-        </right>
+        The Numbers Game is a simple HTML/Java application built to during my foundation year</br>
+        It exists to help teach children to recognise numbers in their word form.</br>
       </p>
+      <input id="btnStart" value="Start" type="button" onclick="Start()"/>
+      <p id="lblNum"> </p></br>
+      <input id="txtAns" type="text" /></br></br>
+      <input id="btnCheck" type="button" value="Check" onclick="CheckAnswer()"/></br></br>
+      <p id="lblReply"> </p></br></br>
+        <img id="smileOne" src="images/Smiley1.png" height="75" width="75"/>
+        <img id="smileTwo" src="images/Smiley1.png" height="75" width="75"/>
+        <img id="smileThree" src="images/Smiley1.png" height="75" width="75"/>
+        <img id="smileFour" src="images/Smiley1.png" height="75" width="75"/>
+        <img id="smileFive" src="images/Smiley1.png" height="75" width="75"/>
     </div>
     <div class="rightMenu">
       <div id="Test"></div>
