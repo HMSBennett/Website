@@ -37,9 +37,19 @@ input[type=button]:hover{
   background-color: #0A0A0A;
 }
 
-.areaSplit{
+.areaSplitHome{
   width: 100%;
   height: 100px;
+  background-color: #0A0A0A;
+  border-color: #FF5700;
+  border-bottom-style: solid;
+  border-top-width: 0.75px;
+  text-align: center;
+}
+
+.areaSplitVideo{
+  width: 100%;
+  height: 750px;
   background-color: #0A0A0A;
   border-color: #FF5700;
   border-bottom-style: solid;
@@ -93,4 +103,8 @@ input[type=button]:hover{
 }
 
 .anchorPoint{
+}
+
+.teamAnchorPoint{
+  height: 12.5%;
 }

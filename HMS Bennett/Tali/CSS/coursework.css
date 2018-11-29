@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+  font-family: monospace;
+  color: white;
+}
+
+.title{
+  display: table-row;
+}
+
+.cart{
+  display: table-row;
+}
+
+
+.menu, li{
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.menu li a{
+  display: block;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+
+.menu li a:hover{
+  border-color: grey;
+  background-color: white;
+  color: grey;
+}
