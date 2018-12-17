@@ -1,0 +1,29 @@
+content = [{
+    "title":"Tali's Textiles - 001",
+    "name":"Tali Zorah Patterned Scarf",
+    "cost":"&pound 12.50",
+    "quantity":"Quantity Left: 7",
+    "description":"This scarf connects end to end and is great for the cold weather",
+    "imageSrc":"images/TaliScarf.png"
+  },{
+    "title":"Talis Textiles - 002",
+    "name":"Leather N7 Jacket",
+    "cost":"&pound 37.50",
+    "quantity":"Quantity Left: 5",
+    "description":"This faux leather jacket lets everyone know your favourite store on the citadel",
+    "imageSrc":"images/N7Jacket.png"
+  },{
+    "title":"Tali's Textiles - 003",
+    "name":"Krogan 'Lift' T-Shirt",
+    "cost":"&pound 12.50",
+    "quantity":"Quantity Left: 2",
+    "description":"Wear at the gym to let everyone know, you lift like a Krogan",
+    "imageSrc":"images/kroganTshirt.png"
+  },{
+    "title":"Tali's Textiles - 004",
+    "name":"Wooden N7 Eagle Pistol",
+    "cost":"&pound 25.50",
+    "quantity":"Quantity Left: 1",
+    "description":"A wooden replica of Shepards trusty pistol",
+    "imageSrc":"images/kroganTshirt.png"
+}];

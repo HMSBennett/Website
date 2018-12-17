@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title id="pageTitle">Tali's Textiles - Home</title>
+    <title id="pageTitle">Tali's Textiles - </title>
     <link rel="stylesheet" href="CSS/coursework.css"/>
     <script src="Javascript/main.js"></script>
     <script type="text/JSON" src="Javascript/content.json"></script>
@@ -24,8 +24,34 @@
         <td><a href="TaliLogin.html">Login</a></td>
       </tr>
     </table>
-    <table class="contentMenu" id="menuContent">
+    <div class="contentImage">
+      <img id="itemImage" src="">
+    </div>
+    <table class="contentTitle">
+      <th id="itemName"></th>
     </table>
-    <p>DISCLAIMER - This is a university project, these products aren't actually available for sale.</p>
+    <table class="contentDescription">
+      <tr>
+        <td id="itemCost"></td>
+      </tr>
+      <tr>
+        <td><br><br></td>
+      </tr>
+      <tr>
+        <td id="itemQuantity"></td>
+      </tr>
+      <tr>
+        <td><br><br></td>
+      </tr>
+      <tr>
+        <td id="itemDescription"></td>
+      </tr>
+      <tr>
+        <td><br><br></td>
+      </tr>
+      <tr>
+        <td><button id="buttonBuy" onclick="AddToBasket()">Add To Basket</button></td>
+      </tr>
+    </table>
   </body>
 </html>

@@ -1,11 +1,12 @@
 body{
-  background-color: grey;
+  background-color: black;
   font-family: monospace;
   color: white;
 }
 
 .titleName{
   text-align: left;
+  font-size: 20px;
 }
 
 .titleCart{
@@ -18,7 +19,7 @@ body{
   position: relative;
   margin: 0px;
   padding: 0px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .menu td a{
@@ -35,9 +36,9 @@ body{
 }
 
 .menu td a:hover{
-  border-color: grey;
+  border-color: black;
   background-color: white;
-  color: grey;
+  color: black;
 }
 
 a{
@@ -46,19 +47,55 @@ a{
 }
 
 a:hover{
-  color: black;
+  color: grey;
 }
 
-.content{
+.contentMenu{
   margin-top: 2.5%;
   margin-left: 10%;
   margin-right: 10%;
+  width: 80%;
 }
 
-.content td{
+.contentMenu td{
   text-align: center;
   border-radius: 2.5px;
   border-style: ridge;
   width: 33.333%;
   font-size: 15px;
+}
+
+.contentImage{
+  float: left;
+  text-align: center;
+  margin-top: 2.5%;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.contentTitle{
+  margin-top: 2.5%;
+  margin-right: 10%;
+  width: 40%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contentDescription{
+  margin-right: 10%;
+  width: 40%;
+  font-size: 20px;
+  text-align: left;
+}
+
+button{
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+
+button:hover{
+  background-color: white;
+  font-size: 25px;
+  color: black;
 }
