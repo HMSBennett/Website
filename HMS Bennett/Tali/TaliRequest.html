@@ -5,7 +5,6 @@
     <title id="pageTitle">Tali's Textiles - Request</title>
     <link rel="stylesheet" href="CSS/coursework.css"/>
     <script src="Javascript/main.js"></script>
-    <script type="text/JSON" src="Javascript/content.json"></script>
   </head>
 
   <body onload="OnLoad()">
@@ -15,17 +14,28 @@
           <h1>Tali's Textiles</h1>
         </th>
         <th style="width:50%" class="titleCart">
-          <a href="TaliCart.html"><img src="images/cartIcon.png" width="7.5%"></a>
+          <a href="TaliBasket.html"><h1>Basket = Empty</h1></a>
         </th>
       </tr>
       <tr class="menu">
         <td><a href="TaliHome.html">New Releases</a></td>
         <td><a href="TaliRequest.html">Request</a></td>
-        <td><a href="TaliLogin.html">Login</a></td>
+        <!-- <td><a href="TaliLogin.html">Login</a></td> -->
       </tr>
     </table>
     <table style="width:80%" class="content">
-
+      <div class="request">
+        If you want something similar, for example a Salarian themed scarf,<br>
+        then please fill out the box below to submit a request.<br><br>
+        Name: <input type="text" id="requestName" placeholder="Leeroy Jenkins"></input><br>
+        Email: <input type="email" id="requestEmail" placeholder="leeroyjenkins1@snailmail.com"></input><br>
+        Description: <input type="textarea" id="requestNature" placeholder="Wooden M5 Phalanx pistol with green stripes"></input><br>
+        URL Example: <input type="url" id="requestURL" placeholder="https://vignette.wikia.nocookie.net/masseffect/images/b/b4/M5_phalanx.jpg/revision/latest?cb=20110414183200"></input><br><br>
+        <button onclick="sendRequest()">Submit</button><br><br>
+        Request will be met with an email discussion on monitary cost, time cost and <br>
+        personalisation questions.
+      </div>
     </table>
+    <p>DISCLAIMER - This is a university project, these products aren't actually available for sale.</p>
   </body>
 </html>

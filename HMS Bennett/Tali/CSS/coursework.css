@@ -99,3 +99,19 @@ button:hover{
   font-size: 25px;
   color: black;
 }
+
+.request{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 2.5%;
+  font-size: 25px;
+}
+
+.request input{
+  width: 50%;
+  float: right;
+  margin-right: 18%;
+  margin-left: -18%;
+  font-size: 20px;
+}
