@@ -5,6 +5,8 @@
     <title id="titleData">Tali's Textiles - </title>
     <link rel="stylesheet" href="CSS/coursework.css"/>
     <script src="Javascript/main.js" async></script>
+  	<!-- <script src="Javascript/qunit-2.4.0.js"></script>
+  	<script src="Javascript/UnitTests.js" async></script> -->
   </head>
 
   <body onload="OnLoad()">
@@ -14,13 +16,12 @@
           <h1>Tali's Textiles</h1>
         </th>
         <th style="width:50%" class="titleCart">
-          <a href="TaliBasket.html"><h1>Basket = Empty</h1></a>
+          <a href="TaliBasket.html"><h1 id="basketCount">Basket: 0</h1></a>
         </th>
       </tr>
       <tr class="menu">
         <td><a href="TaliHome.html">New Releases</a></td>
         <td><a href="TaliRequest.html">Request</a></td>
-        <!-- <td><a href="TaliLogin.html">Login</a></td> -->
       </tr>
     </table>
     <div class="contentImage">
@@ -37,7 +38,7 @@
         <td><br><br></td>
       </tr>
       <tr>
-        <td id="quantityData">Left In Stock: </td>
+        <td id="quantityData">Stock Left: </td>
       </tr>
       <tr>
         <td><br><br></td>
@@ -55,5 +56,8 @@
     <br><br><br><br><br><br><br><br><br><br><br>
     <p>DISCLAIMER - This is a university project, these products aren't actually available for sale.</p>
     <p id="pageTitle"></p>
+
+    <!-- <div id="qunit"></div>
+    <div id="qunit-fixture"></div> -->
   </body>
 </html>
