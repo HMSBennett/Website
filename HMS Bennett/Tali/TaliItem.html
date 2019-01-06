@@ -4,18 +4,18 @@
   <head>
     <title id="titleData">Tali's Textiles - </title>
     <link rel="stylesheet" href="CSS/coursework.css"/>
-    <script src="Javascript/main.js" async></script>
+    <script src="Javascript/ItemCode.js" async></script>
   	<!-- <script src="Javascript/qunit-2.4.0.js"></script>
-  	<script src="Javascript/UnitTests.js" async></script> -->
+  	<script src="Javascript/UnitTestsItem.js" async></script> -->
   </head>
 
   <body onload="OnLoad()">
     <table style="width:100%">
       <tr>
-        <th style="width:50%" class="titleName">
+        <th class="titleName">
           <h1>Tali's Textiles</h1>
         </th>
-        <th style="width:50%" class="titleCart">
+        <th class="titleCart">
           <a href="TaliBasket.html"><h1 id="basketCount">Basket: 0</h1></a>
         </th>
       </tr>
@@ -53,8 +53,7 @@
         <td><button id="buttonBuy" onclick="AddToBasket()">Add To Basket</button></td>
       </tr>
     </table>
-    <br><br><br><br><br><br><br><br><br><br><br>
-    <p>DISCLAIMER - This is a university project, these products aren't actually available for sale.</p>
+    <p class="disclaimer">DISCLAIMER: This is a university project, these products aren't actually available for sale.</p>
     <p id="pageTitle"></p>
 
     <!-- <div id="qunit"></div>

@@ -1,16 +1,41 @@
+@font-face {
+    font-family: 'MEFont'; /*a name to be used later*/
+    src: url('font/me123.ttf'); /*URL to font*/
+}
+
+html{
+  background: linear-gradient(to bottom right, #2451A0, #091120);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.home{
+  background: linear-gradient(to bottom right, #2451A0, #091120);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 body{
-  background-color: black;
-  font-family: monospace;
-  color: white;
+  font-family: MEFont;
+  color: #C0C0C0;
 }
 
 .titleName{
   text-align: left;
+  float: left;
   font-size: 20px;
+  width: 80%;
 }
 
 .titleCart{
-  text-align: right;
+  float: right;
+  border: solid;
+  border-color: silver;
+  border-width: thick;
+  border-radius: 15px;
+  width: 15%;
 }
 
 .menu td{
@@ -20,6 +45,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-size: 20px;
+  border-radius: 15px;
 }
 
 .menu td a{
@@ -30,19 +56,22 @@ body{
   padding-top: 5px;
   padding-bottom: 5px;
   border-style: solid;
-  border-color: white;
-  color: white;
+  border-color: silver;
+  border-width: thick;
+  border-radius: 15px;
+  color: silver;
   text-decoration: none;
 }
 
 .menu td a:hover{
-  border-color: black;
-  background-color: white;
-  color: black;
+  border-color: #2451A0;
+  background-color: silver;
+  color: #2451A0;
+  border-radius: 15px;
 }
 
 a{
-  color: white;
+  color: silver;
   text-decoration: none;
 }
 
@@ -63,6 +92,7 @@ a:hover{
   border-style: ridge;
   width: 33.333%;
   font-size: 15px;
+  font-size: 25px;
 }
 
 .contentImage{
@@ -89,24 +119,29 @@ a:hover{
 }
 
 button{
-  background-color: black;
+  background-color: #2451A0;
+  font-family: MEFont;
   font-size: 25px;
-  color: white;
+  color: silver;
+  border-radius: 15px;
 }
 
 button:hover{
-  background-color: white;
-  color: black;
+  background-color: silver;
+  color: #2451A0;
+  border-radius: 15px;
 }
 
 button:hover:disabled{
-  background-color: white;
+  background-color: silver;
   color: grey;
+  border-radius: 15px;
 }
 
 button:disabled{
-  background-color: white;
+  background-color: silver;
   color: grey;
+  border-radius: 15px;
 }
 
 .request{
@@ -120,7 +155,13 @@ button:disabled{
 .request input{
   width: 50%;
   float: right;
-  margin-right: 18%;
-  margin-left: -18%;
+  margin-right: 15%;
+  margin-left: -15%;
   font-size: 20px;
+}
+
+.disclaimer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

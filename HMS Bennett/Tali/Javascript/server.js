@@ -35,25 +35,25 @@ MongoClient.connect(url, function (err, db) {
   db.close();
 });
 
-function LowerQuantity(){
-  MongoClient.connect(url, function(err, db) {
-    if (err) {
-      throw err;
-    }
-    console.log("Lowering Quantity By One");
-    var newQuan = itemQuantity[0] - 1;
-    var dbo = db.db("stock");
-    var myquery = { title: itemTitle[0] };
-    var newvalues = { $set: {quantity: newQuan} };
-    dbo.collection("stockCount").updateOne(myquery, newvalues, function(err, res) {
-      if (err) {
-        throw err;
-      }
-      console.log("Lowered Quantity of: " + itemTitle[0] + ", to: " + newQuan);
-      db.close();
-    });
-  });
-}
+// function LowerQuantity(){
+//   MongoClient.connect(url, function(err, db) {
+//     if (err) {
+//       throw err;
+//     }
+//     console.log("Lowering Quantity By One");
+//     var newQuan = itemQuantity[0] - 1;
+//     var dbo = db.db("stock");
+//     var myquery = { title: itemTitle[0] };
+//     var newvalues = { $set: {quantity: newQuan} };
+//     dbo.collection("stockCount").updateOne(myquery, newvalues, function(err, res) {
+//       if (err) {
+//         throw err;
+//       }
+//       console.log("Lowered Quantity of: " + itemTitle[0] + ", to: " + newQuan);
+//       db.close();
+//     });
+//   });
+// }
 
 //Database URL------------------------------------------------------------------
 
@@ -64,6 +64,7 @@ function LowerQuantity(){
 var http = require ("http");
 var port = 9090;
 var server;
+var itemNumber = 0;
 
 server = http.createServer (function(request,response) {
 
@@ -85,6 +86,7 @@ response.writeHead(200, {"Access-Control-Allow-Origin":"*"});
     response.end ("" + totalItems + "");
   }else if(request.url == "/lowerQuantity"){
     LowerQuantity();
+    // itemNumber =
   }else{
     response.end ("<p> Hello World </p> <p> Path requested :" + request.url + "</p>");
   }
