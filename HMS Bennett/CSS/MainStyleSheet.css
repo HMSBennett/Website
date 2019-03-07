@@ -1,5 +1,5 @@
 a{
-  color: #FFFFFF;
+  color: #008C28;
   text-decoration: none;
 }
 
@@ -15,7 +15,7 @@ input[type=button] {
     color: #FFFFFF;
     background-color: #101010;
     border-style: solid;
-    border-color: #404040;
+    border-color: #008C28;
     font-size: 25px;
 }
 
@@ -23,7 +23,7 @@ input[type=button]:hover{
   border: 2.5px;
   border-style: solid;
   border-color: #101010;
-  background-color: #404040;
+  background-color: #008C28;
 }
 
 .choiceButton{
@@ -31,7 +31,7 @@ input[type=button]:hover{
     color: #FFFFFF;
     background-color: #101010;
     border-style: solid;
-    border-color: #404040;
+    border-color: #008C28;
     font-size: 25px;
 }
 
@@ -39,7 +39,7 @@ input[type=button]:hover{
   border: 2.5px;
   border-style: solid;
   border-color: #101010;
-  background-color: #404040;
+  background-color: #008C28;
 }
 
 #Items li{
@@ -73,7 +73,7 @@ input[type=button]:hover{
   padding: 0px;
   background-color: #101010;
   border-bottom-style: solid;
-  border-color: #404040;
+  border-color: #008C28;
 }
 
 .menu li a{
@@ -85,12 +85,12 @@ input[type=button]:hover{
   border-bottom-style: solid;
   border-right-style: solid;
   border-left-style: solid;
-  border-color: #404040;
+  border-color: #008C28;
   background-color: #101010;
 }
 
 .menu li a:hover{
-  background-color: #404040;
+  background-color: #008C28;
   color: #FFFFFF;
   border-left: 3px;
   border-right: 3px;
@@ -99,38 +99,13 @@ input[type=button]:hover{
   border-color: #101010;
 }
 
-.menu li ul{
-  display: none;
-  position: absolute;
-  margin-top: 37px;
-  border-style: none;
-}
-
-.menu li:hover ul {
-  display: block;
-}
-
-.menu li ul a{
-  display: block;
-  color: #FFFFFF;
-  background-color: #101010;
-  font-size: 20px;
-  padding: 5px, 0px, 0px, 5px;
-  width: 100%;
-  overflow: auto;
-}
-
-.menu li ul li a{
-  width: 200px;
-}
-
 .mainText{
-  width: 60%;
+  width: 80%;
   align-self: center;
   text-align: center;
   vertical-align: middle;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   float:left;
 }
 
@@ -151,34 +126,11 @@ input[type=button]:hover{
 }
 
 .mainText a:hover{
-    background-color: #404040;
+    background-color: #008C28;
     color: #FFFFFF;
     border: 2.5px;
     border-color: #101010;
     border-bottom-style: solid;
-}
-
-.mainTextAlt{
-  width: 60%;
-  align-self: center;
-  text-align: left;
-  vertical-align: middle;
-  padding-left: 10%;
-  padding-right: 10%;
-  float:left;
-}
-
-.mainTextAlt devLog{
-  width: 100%;
-  align-self: center;
-  text-align: left;
-  vertical-align: middle;
-  display: table;
-  border-style: solid;
-  border-width: 0px;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
-  border-color: #404040;
 }
 
 span{
@@ -190,7 +142,7 @@ span{
 }
 
 .leftMenu{
-  width: 10%;
+  width: 5%;
   height: 450px;
   text-align: left;
   background-color: #101010;
@@ -198,7 +150,33 @@ span{
 }
 
 .rightMenu{
-  width: 10%;
+  width: 5%;
+  height: 450px;
+  text-align: left;
+  background-color: #101010;
+  float:left;
+}
+
+.mainTextAwake{
+  width: 60%;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 5%;
+  padding-right: 5%;
+  float:left;
+}
+
+.leftMenuAwake{
+  width: 15%;
+  height: 450px;
+  text-align: left;
+  background-color: #101010;
+  float:left;
+}
+
+.rightMenuAwake{
+  width: 15%;
   height: 450px;
   text-align: left;
   background-color: #101010;
@@ -221,12 +199,54 @@ html, body {
   margin: 0;
 }
 
-.footer{
-  height: 15%;
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
   text-align: center;
-  float:left;
+  position: fixed;
+  background-color: #101010;
+  border-top: 3px solid #008C28;
 }
 
 .padding{
   padding-left: 83px;
+}
+
+table{
+  width: 100%;
+    /* border-color: white;
+    border-bottom-style: solid;
+    border-top-width: 1px; */
+}
+
+th{
+  text-align: left;
+  font-size: 27.5px;
+  text-decoration: underline;
+    /* border-color: yellow;
+    border-bottom-style: solid;
+    border-top-width: 1px; */
+}
+
+td{
+  width: 50%;
+  text-align: left;
+    /* border-color: red;
+    border-bottom-style: solid;
+    border-top-width: 1px; */
+}
+
+.image{
+  text-align: center;
+}
+
+.split{
+  border-color: #008C28;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+}
+
+.date{
+  font-size: 20px;
 }

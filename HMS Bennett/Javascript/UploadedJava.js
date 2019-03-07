@@ -144,43 +144,43 @@ function SelectRoom(index){
 
 function Pictures(){
   if (currentRoom == 1){
-    imgSpace.src = "../images/Watch.png";
+    imgSpace.src = "images/Watch.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 16){
-    imgSpace.src = "../images/Dr.GastlyID.png";
+    imgSpace.src = "images/Dr.GastlyID.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 38 || currentRoom == 39 || currentRoom == 81 || currentRoom == 82){
-    imgSpace.src = "../images/EngineOff.png";
+    imgSpace.src = "images/EngineOff.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 40 || currentRoom == 83){
-    imgSpace.src = "../images/EngineOn.png";
+    imgSpace.src = "images/EngineOn.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 65 || currentRoom == 68 || currentRoom == 69){
-    imgSpace.src = "../images/PasswordOne.png";
+    imgSpace.src = "images/PasswordOne.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 10 || currentRoom == 11 || currentRoom == 12){
-    imgSpace.src = "../images/Split.png";
+    imgSpace.src = "images/Split.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 67){
-    imgSpace.src = "../images/TopSecret.png";
+    imgSpace.src = "images/TopSecret.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 64){
-    imgSpace.src = "../images/Charts.png";
+    imgSpace.src = "images/Charts.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else if (currentRoom == 61 || currentRoom == 59){
-    imgSpace.src = "../images/Chest.png";
+    imgSpace.src = "images/Chest.png";
     imgSpace.style.height = '20%';
     imgSpace.style.width = '20%';
   }else {
-    imgSpace.src = "../images/Blank.png";
+    imgSpace.src = "images/Blank.png";
     imgSpace.style.height = '1px';
     imgSpace.style.width = '1px';
   }
