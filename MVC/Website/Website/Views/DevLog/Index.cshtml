@@ -1,0 +1,23 @@
+﻿@model DevLogViewModel
+@{
+    ViewData["Title"] = "Dev Log";
+}
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    @Model.DevContent
+                </div>
+                <div class="row">
+                    <i>@Model.DevDate</i>
+                </div>
+            </div>
+            <div class="col">
+                <iframe width="560" height="315" src="@Model.DevLink" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="split">
+
+            </div>
+        </div>
+    </div>

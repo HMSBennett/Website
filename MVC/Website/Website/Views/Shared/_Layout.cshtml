@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <h2 class="title">
+                <a href="@Url.Action("Index", "Home" )">
+                    <img src="~/images/Website.png" style="width:20%; height:20%; "></br>
+                </a>
+                @ViewData["Title"]
+            </h2>
+        </div>
+        <div class="pb-5">
+            <h3>
+                <ul class="menu">
+                    <li>
+                        <a href="@Url.Action("Index", "Home" )">Home</a>
+                    </li>
+                    @*<li>
+                        <a href="@Url.Action("Index", "Applications" )">Applications</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", "GameProjects" )">Game Projects</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", "GameJams" )">Game Jam</a>
+                    </li>*@
+                    <li>
+                        <a href="@Url.Action("Index", "DevLog" )">Dev Log</a>
+                    </li>
+                </ul>
+            </h3>
+        </div>
+    </header>
+
+    <div class="container-fluid" style="padding-left:10%; padding-right:10%">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+       
+    <footer class="border-top footer text-muted">
+        <a href="https://www.linkedin.com/in/harrison-bennett-0587aa12a/">
+            <img src="images/LinkedIn.png" style="width:5%; height:5%">
+        </a>
+        <a href="https://www.youtube.com/channel/UC2DllcU0PIkPsRJXwnQqQKQ/videos.com">
+            <img src="images/YouTube.png" style="width:5%; height:5%">
+        </a>
+        <a href="https://github.com/HMSBennett">
+            <img src="images/Git.png" style="width:5%; height:5%">
+        </a>
+        <a href="https://twitter.com/HMSBennett">
+            <img src="images/Twitter.png" style="width:5%; height:5%">
+        </a>
+        <a href="https://hms-bennett.itch.io/">
+            <img src="images/Itch.png" style="width:5%; height:5%">
+        </a>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

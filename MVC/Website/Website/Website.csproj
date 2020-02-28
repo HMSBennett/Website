@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\AppsDevLog.png" />
+    <None Include="wwwroot\images\Background.png" />
+    <None Include="wwwroot\images\bba.png" />
+    <None Include="wwwroot\images\Blank.png" />
+    <None Include="wwwroot\images\Buzzy.jpg" />
+    <None Include="wwwroot\images\Charts.png" />
+    <None Include="wwwroot\images\Chest.png" />
+    <None Include="wwwroot\images\DGHCharacterSelect.PNG" />
+    <None Include="wwwroot\images\DGHPlayArea.PNG" />
+    <None Include="wwwroot\images\DGHStartScreen.PNG" />
+    <None Include="wwwroot\images\Dr.GastlyID.png" />
+    <None Include="wwwroot\images\EngineOff.png" />
+    <None Include="wwwroot\images\EngineOn.png" />
+    <None Include="wwwroot\images\favicon.png" />
+    <None Include="wwwroot\images\GAWCharacterSelection.PNG" />
+    <None Include="wwwroot\images\GAWLevels.PNG" />
+    <None Include="wwwroot\images\GAWPlayScreen.PNG" />
+    <None Include="wwwroot\images\Git.png" />
+    <None Include="wwwroot\images\Gorn.jpg" />
+    <None Include="wwwroot\images\ic_logo_two.png" />
+    <None Include="wwwroot\images\Itch.png" />
+    <None Include="wwwroot\images\kinder.jpg" />
+    <None Include="wwwroot\images\LinkedIn.png" />
+    <None Include="wwwroot\images\MDOne.png" />
+    <None Include="wwwroot\images\MDTwo.png" />
+    <None Include="wwwroot\images\Moldarach-Medium.jpg" />
+    <None Include="wwwroot\images\NGScreenShot.png" />
+    <None Include="wwwroot\images\PasswordOne.png" />
+    <None Include="wwwroot\images\PasswordTwo.png" />
+    <None Include="wwwroot\images\RCAltCharacter.png" />
+    <None Include="wwwroot\images\RCMainCharacter.png" />
+    <None Include="wwwroot\images\SLCOne.png" />
+    <None Include="wwwroot\images\SLCTwo.png" />
+    <None Include="wwwroot\images\Smiley1.png" />
+    <None Include="wwwroot\images\Smiley2.png" />
+    <None Include="wwwroot\images\Split.png" />
+    <None Include="wwwroot\images\TopSecret.png" />
+    <None Include="wwwroot\images\TrafficLightsGIF.gif" />
+    <None Include="wwwroot\images\Twitter.png" />
+    <None Include="wwwroot\images\USMOne.png" />
+    <None Include="wwwroot\images\Watch.png" />
+    <None Include="wwwroot\images\Website.png" />
+    <None Include="wwwroot\images\WebsiteAlt.jpg" />
+    <None Include="wwwroot\images\WebsiteLarge.png" />
+    <None Include="wwwroot\images\YouTube.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+
+
+</Project>
